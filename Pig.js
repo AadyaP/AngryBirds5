@@ -17,13 +17,14 @@ class Pig extends BaseClass {
      tint(255,this.Visiblity);
      image(this.image, this.body.position.x, this.body.position.y, 50, 50);
      pop();
-   }}
-   score(){
-     if(this.Visiblity<0 && this.Visiblity>-100){
-       score=score+1
-     }
    }
- 
+  }
+
+  score(){
+    if (this.Visiblity < 0 && this.Visiblity > -1005){
+      score++;
+    }
+  }
 
 
 
